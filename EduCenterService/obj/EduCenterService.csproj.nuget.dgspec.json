@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hoangdao/Documents/Projects/EduCenter/EduCenterService/EduCenterService.csproj": {}
+    "/Users/hoangdao/Documents/Git/EduCenter/EduCenterService/EduCenterService.csproj": {}
   },
   "projects": {
-    "/Users/hoangdao/Documents/Projects/EduCenter/EduCenterService/EduCenterService.csproj": {
+    "/Users/hoangdao/Documents/Git/EduCenter/EduCenterService/EduCenterService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hoangdao/Documents/Projects/EduCenter/EduCenterService/EduCenterService.csproj",
+        "projectUniqueName": "/Users/hoangdao/Documents/Git/EduCenter/EduCenterService/EduCenterService.csproj",
         "projectName": "EduCenterService",
-        "projectPath": "/Users/hoangdao/Documents/Projects/EduCenter/EduCenterService/EduCenterService.csproj",
+        "projectPath": "/Users/hoangdao/Documents/Git/EduCenter/EduCenterService/EduCenterService.csproj",
         "packagesPath": "/Users/hoangdao/.nuget/packages/",
-        "outputPath": "/Users/hoangdao/Documents/Projects/EduCenter/EduCenterService/obj/",
+        "outputPath": "/Users/hoangdao/Documents/Git/EduCenter/EduCenterService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hoangdao/.nuget/NuGet/NuGet.Config"
