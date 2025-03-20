@@ -44,7 +44,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            docker pull ${{ secrets.DOCKER_USERNAME }}/educenter-service:latest
-            docker stop my-api || true
-            docker rm my-api || true
-            docker run -d -p 5000:5000 --name my-api --restart unless-stopped ${{ secrets.DOCKER_USERNAME }}/educenter-service:latest
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/educenter-service:latest
+            sudo docker stop my-api || true
+            sudo docker rm my-api || true
+            sudo docker run -d -p 5000:5000 --name my-api --restart unless-stopped ${{ secrets.DOCKER_USERNAME }}/educenter-service:latest
