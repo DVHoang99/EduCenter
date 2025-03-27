@@ -16,8 +16,15 @@ public class StudentController(IMediator mediator) : ControllerBase
         return Ok(student);
     }
     
+    // [HttpPost]
+    // public async Task<IActionResult> CreateStudent(CreateStudentCommand command)
+    // {
+    //     var student = await mediator.Send(command);
+    //     return Ok(student);
+    // }
+    
     [HttpPost]
-    public async Task<IActionResult> CreateStudent(CreateStudentCommand command)
+    public async Task<IActionResult> CreateStudent2(CreateStudentCommand command)
     {
         var student = await mediator.Send(command);
         return Ok(student);
