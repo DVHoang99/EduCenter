@@ -93,7 +93,7 @@ app.MapControllers();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapGet("/ping", () => "pong pong pong")
+app.MapGet("/ping", () => "pong pong pong pong pong")
     .WithName("ping")
     .WithOpenApi();
 
